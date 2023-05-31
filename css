@@ -1,335 +1,300 @@
-/*corpo da página*/
+/*página principal*/
 body {
-    font-family: 'inter', sans-serif;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(230, 221, 221);
 
 }
 
+/*logo da dnc*/
+#logo {
 
-/*imagem de fundo contendo título principal e subtitulo*/
-#div-logo {
-    background-image: url("../img/fundo.svg");
-    max-width: 100%;
-    max-height: 100%;
-    min-width: auto;
-    min-height: auto;
-    margin-top: 0%;
-    height: 33em;
-    animation-name: div-logo;
-    animation-duration: 1s ;
-    
-}
+  background-image: url("imagens/fundo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
-@keyframes div-logo{
-
-    0%{
-        transform: scale(0.5, 0.5);
-        animation: ;
-        -webkit-animation:;
-        -webkit-transform:;
-        -moz-transform:;
-        -ms-transform:;
-        -o-transform:;
-}
-
-
-10%{
-    transform: scale(0.2, 0.5);
-    animation: ;
-    -webkit-animation:;
-    -webkit-transform: scale(0.2, 0.5);
-    -moz-transform: scale(0.2, 0.5);
-    -ms-transform: scale(0.2, 0.5);
-    -o-transform: scale(0.2, 0.5);
-}
 
 }
 
-/*titulo principal da página*/
+/*link da logo dnc*/
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/*id da logo dnc*/
+#dnc {
+  display: inline-flex;
+  font-family: ' Times';
+  margin-top: 1%;
+  margin-bottom: -10%;
+
+  padding-bottom: 0%;
+}
+
+
+
+
+
+
+/*titulo da div logo*/
+#D {
+  font-size: 2, 4em;
+  font-family: 'inter', sans-serif;
+  margin-top: 6%;
+  padding-left: 11%;
+
+  padding-bottom: 0%;
+  color: aliceblue;
+}
+
+/*tage da div logo*/
+#inscreva {
+  font-family: 'inter', sans-serif;
+
+  padding-top: 0%;
+  padding-left: 11%;
+
+  font-size: 12px;
+  color: aliceblue;
+
+  padding-bottom: 8%;
+}
+/*cards conteto foto camera,certificado, relógil e tags */
+#card {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  top: 59.40%;
+  background-color: #EAECE5;
+}
+
+
+
+/*texto dos cards*/
+.textoinformativo {
+
+  display: flex;
+  align-items: center;
+
+}
+
+/*imagens do certificado na div cards */
+.icones {
+  margin: 5% 2% 5% -3%;
+  padding-left: 30%;
+
+  padding-right: -4%;
+}
+
+/*div contdendo video,titulos e tags*/
+#secaovideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+/*h2 do videos*/
 #titulo {
-    color: #FFFFFF;
-    font-family: 'inter', sans-serif;
-    font-size: 50px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    padding-top: 15%;
-    padding-left: 8%;
-    animation: titulo ;
-    -webkit-animation: titulo ;
-    animation-duration: 3s;
+
+  color: #247BA0;
+  font-family: 'inter', sans-serif;
+  margin-top: 35%;
+  margin-left: 7%;
 }
 
-@keyframes titulo{
-    0%{
-        transform: scaleY(0.5);
-        
-    }
+/*tags p do videos*/
+#textovideo {
 
-10%{
-    transform: scaley( -1);
-    -webkit-animation:;
-    -webkit-transform: scaley( -1);
-    -moz-transform: scaley( -1);
-    -ms-transform: scaley( -1);
-    -o-transform: scaley( -1);
-}
-
-}
-/*subtitulo principal da página*/
-#tagdesri {
-    color: #FFFFFF;
-    font-family: 'inter', sans-serif;
-    font-size: 20px;
-    margin-bottom: 40%;
-    padding-top: 1%;
-    padding-left: 8%;
-    padding-bottom: 40%;
-    animation-name: tagdesri;
-    animation-duration: 3s;
-   
-}
-
-@keyframes tagdesri{
-0%{
-    transform: scaleY(0.5);
-    
-}
-
-10%{ transform: scaley(-1); 
--webkit-transform: scaley(-1); 
--moz-transform: scaley(-1);
--ms-transform: scaley(-1);
--o-transform: scaley(-1);
-}
-}
-
-
-/*div contando as imagens contendo os ids 'empreendimento, mercadoExperiencia e projtosconst'*/
-#cards {clear: both;
-   
-    max-width: 100%;
-    min-width: auto;
-    background-color: #F9F9F9;
-
-
-    align-items: center;
-    margin-top: 0%;
-    margin-bottom: 4%;
-    margin-left: 0%;
-    margin-right: 0%;
-
-    padding-left: 9%;
-    padding-top: 7%;
-    padding-bottom: 7%;
-
-    display: grid;
-    grid-auto-flow: column;
-
-
-}
-
-
-
-/*div contendo id="foto" e id='div-textotitulo' e titulotexto*/
-#textofoto {
-    display: grid
-;
-  clear: both;
-    max-width: 100%;
-    min-width: auto;
-grid-auto-flow:dense;
-}
-
-
-
-/*imagem da div id="foto"*/
-#foto>img {
-    grid-auto-flow: row;
-clear: both;
-display: grid ;
-text-align: right;
-    border-width: 24%;
-    border-color: aqua;
-    margin-top: 4%;
-    margin-left: 60%;
-
-    margin-right: 3%;
-    margin-bottom: 0%;
-
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-
-
-/*titulo e texto da div id="textofoto "*/
-#div-textotitulo {
-   clear: both; 
-    display: grid;
- text-align: left;
-    margin-top: -30%;
-    margin-left: -55%;
-    margin-right: 9%;
-    margin-bottom: -2%;
-    position: static;
-    align-items: flex-end;
-    padding-top: -15%;
-    padding-bottom: 7%;
+  color: #247BA0;
+  margin-top: 4%;
+  margin-left: 7%;
 }
 
 
 
 
-/*h2 da div-textotitulo*/
-#titulotexto {z-index: 1;
-   text-align: left;
-    clear: both;
-    display: grid;
+#video {
+  margin: 20% 140% 55% 20%;
 
-    max-width: 100%;
-    min-width: 10%;
-    position: relative;
-    flex-direction: ;
-    font-family: 'inter', sans-serif;
-    font-size: 203%;
-
-    margin-top: -17%;
-    margin-left: 42%;
-
-
-    padding-top: 10%;
-    padding-bottom: 4%;
 }
-
-
-/*texto da div-titulotexto*/
-#texto {
-    clear: both;
-    z-index: 1;
-    display: grid;
-
-
-    font-family: 'inter', sans-serif;
-    font-size: 133%;
-
-    margin-top: -6%;
-    margin-left: 41%;
-    margin-bottom: 6%;
-    padding-left: 1%;
+/*div contendo fotos-slides 'loenardo,bruna,samantha e titulo 'h1'*/
+#carrossel {
+  background-color: #247BA0;
+  padding: 20px;
+  
+  margin-top: -23%;
+ 
+}
+/*título dos cards-slids 'leonardo, samantha, bruna'*/
+#titulo-carrossel {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-left: -21%;
+  margin-right: -15%;
+  margin-top: 2%;
+  margin-bottom: 3%;
 
 
 }
 
+/*id contendo as fotos: leonardo, bruna, samantha.*/
+#div-cards {
 
-/*class contendo o formulário e seu título*/
-.formula {
-    background-color: #303030;
+  display: grid;
+  grid-auto-flow: column;
+  margin-left: 1%;
+}
+/*div contem as imagens da camera, relogio,certificado*/
+.card {
+  margin-top: -0%;
+  margin-left: 14%;
+
+
+  padding-left: 9%;
+}
+
+#seta-esquerda {
+
+  display: none;
+  margin-top: 69%;
+  margin-left: 45%;
+  margin-right: -84%;
+}
+
+#seta-direita {
+  margin-top: 69%;
+  margin-left: 33%;
+  margin-right: 70%;
+}
+
+#leonardo {
+  margin-left: 02%;
+  margin-right: 80%;
+  margin-bottom: 4%;
 
 
 }
 
-/*titulo do formulário*/
-#tituloformu {
-    font-size: 2.1em;
-    color: #FFFFFF;
-
-    margin-top: 24%;
-
-    margin-left: 23%;
-    margin-right: 7%;
-    margin-bottom: -3%;
-
-    padding-top: 10%;
-    padding-bottom: -29%;
-    padding-left: 3%;
-    padding-right: 10%;
-
+#bruna {
+  margin-left: 50%;
+  margin-right: 40%;
+  display: none;
 
 }
 
+#samantha {
+  margin-left: 2%;
+  margin-right: -38%;
+  margin-bottom: 4%;
+  display: flex;
 
-/*form => (id="formulario") id do formulário */
+}
+
+/*setas direita e esquerda*/
+.seta {
+  cursor: pointer;
+  margin-top: 50%;
+}
+
+/*setas dereita e esquerda*/
+.seta:hover {
+  width: 15%;
+  transform: translateY(-7px);
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+  transition: 1s ease-out;
+  -webkit-transition: 1s;
+  -moz-transition: 1s ease-out;
+  -ms-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
+}
+
+/*formulário*/
 #formulario {
-    margin-top: 4%;
-
-    margin-left: 7%;
-    margin-right: 34%;
-
-
-    align-items: center;
+  text-align: center;
+  margin-top: -7%;
+  margin-left: -39%;
+  margin-right: -29%;
 }
 
+/*título do formulário*/
+#titulo-formulario  {
+    font-size: 3em;
+  
+    color: aliceblue;
+  
+    padding-top: 7%;
+    padding-left: 38%;
+    padding-right: 0%;
+  
+  font-size: 32px;
+  font-family: 'inter', sans-serif;
+  text-align: center;
+  color: #383838;
 
+  margin-top: -6%;
+  margin-left: -39%;
+  margin-right: -6%;
+  margin-bottom: 2%;
+
+}
 
 /*entrada de dados do formulário*/
 input {
-    cursor: pointer;
-    border-radius:9%;
-    width: 56%;
-    height: 50%;
-    text-align: justify;
-    margin-top: 4%;
-    margin-left: 39%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+  width: 413px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0px;
+  background-color: #EAECE5;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin: 12px;
+
+  padding-left: 10px;
+}
+/*botão de envio de dados do formulário*/
+button {
+  color: #FFFFFF;
+  font-family: 'inter';
+  font-weight: bolder;
+  width: 335px;
+  height: 40px;
+  background-color: #247BA0;
+  border-radius: 5px;
+  border: 0px;
+  margin-bottom: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
 }
 
-
-/*dar uma sombreamento ao input quando passa o mouse.*/
-input:hover {
-    box-shadow: 3px 0px 6px 6px #686464;
-}
-
-
-/*input para envio do nome do usuário*/
-#nome {
-
-    padding-left: 2%;
-    font-size: 2.3em;
-}
-
-
-/*aumenta o texto quando dita no input nome*/
-#nome:focus {
-    font-size: 27px;
-}
-
-
-/*input para envio do email do usuário*/
-#email {
-    padding-left: 2%;
-    font-size: 2.3em;
-}
-
-
-/*aumenta o texto quando dita no input email*/
-#email:focus {
-    font-size: 27px;
-}
-
-
-
-/*botao para envio do formulário*/
-#botao {
-    cursor: pointer;
-    font-size: 17PX;
-    background-color: #C07212;
-
-    border-radius: 9px;
-
-    width: 50%;
-    height: 74px;
-    margin-top: 3%;
-    margin-left: 43%;
-
-    margin-bottom: 8%;
-
-    padding-bottom: -10%;
-}
-
-
-/*sobreamento ao passar o mouse sobre o botão*/
-#botao:hover {
-    box-shadow: 3px 4px 6px 6px #686464;
+/*botão de envio de dados do formulário*/
+button:hover {
+  background-color: #318fb8;
+  color: white;
+  transform: translateY(-7px);
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #025b81;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
