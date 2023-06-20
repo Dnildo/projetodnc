@@ -1,2 +1,6 @@
-# projetodnc
-Dnc projeto
+# PRIEMEIRA ATIVIDADE DESENVOLVIDA DURANTE A AULA DA ESCOLA DNC
+
+FERRAMENTA PARA RODAR O PROJETO: https://code.visualstudio.com/Download
+
+DESCRIÇÃO DO PROJETO.
+
