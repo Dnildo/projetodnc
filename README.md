@@ -1,6 +1,9 @@
-# PRIEMEIRA ATIVIDADE DESENVOLVIDA DURANTE A AULA DA ESCOLA DNC
+#LANDING PAGE
 
 FERRAMENTA PARA RODAR O PROJETO: https://code.visualstudio.com/Download
 
-DESCRIÇÃO DO PROJETO.
+DESCRIÇÃO.
+Uma landing page com desenvolvida durante a aula da escola dnc.
+foi construida com css, html e um pouco de JavaScript para interação dos cards
+
 
